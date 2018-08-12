@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TopBar">
+        <!--定义title文字，大小，颜色-->
+        <attr name="title" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <!--定义left文字，大小，颜色，背景-->
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftTextSize" format="dimension" />
+        <!--表示背景可以是颜色，也可以是引用-->
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="leftText" format="string" />
+        <!--定义right文字，大小，颜色，背景-->
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="rightBackground" format="reference|color" />
+        <attr name="rightText" format="string" />
+    </declare-styleable>
+
+</resources>

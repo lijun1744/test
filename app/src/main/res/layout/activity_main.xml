@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <com.example.administrator.tartb.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#63B8FF"
+        app:title="标题"
+        app:titleTextColor="#000"
+        app:titleTextSize="12sp"
+        app:leftText="左边按钮"
+        app:leftTextColor="#FF0000"
+        app:leftTextSize="12sp"
+        app:leftBackground="#9AFF9A"
+        app:rightText="右边按钮"
+        app:rightTextColor="#EEEE00"
+        app:rightTextSize="12sp"
+        app:rightBackground="#8470FF"/>
+
+
+</LinearLayout>
